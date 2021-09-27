@@ -1,0 +1,40 @@
+.CreateListForm {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inputsWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  width: 40px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.inputDepthNumber {
+  margin-right: 50px;
+  margin-left: 5px;
+}
+
+.submitForm {
+  padding: 15px 25px;
+  background-color: grey;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 15px;
+
+  &:hover {
+    background-color: darkgray;
+  }
+  &:active {
+    background-color: gainsboro;
+    color: black;
+  }
+}

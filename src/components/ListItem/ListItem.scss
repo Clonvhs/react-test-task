@@ -1,0 +1,19 @@
+.ListItemContent {
+
+}
+
+.ListItemContentName {
+  display: inline-block;
+  background-color: gainsboro;
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: transform 0.1s linear;
+
+  &:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+  }
+  &:active {
+    background-color: darkgray;
+  }
+}
